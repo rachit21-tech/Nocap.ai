@@ -1,0 +1,226 @@
+{
+  "timestamp": "2026-10-27 15:50:47 UTC",
+  "model_architecture": "TfidfVectorizer + LogisticRegression",
+  "dataset": "WELFake_Dataset.csv",
+  "total_records": 72134,
+  "train_samples": 57707,
+  "test_samples": 14427,
+  "accuracy": 0.9554,
+  "precision": 0.9555,
+  "recall": 0.9554,
+  "f1_score": 0.9554,
+  "confusion_matrix": [
+    [
+      6655,
+      351
+    ],
+    [
+      292,
+      7129
+    ]
+  ],
+  "top_fake_tokens": [
+    {
+      "token": "video",
+      "weight": 10.3151
+    },
+    {
+      "token": "featured image",
+      "weight": 9.3996
+    },
+    {
+      "token": "image",
+      "weight": 8.3081
+    },
+    {
+      "token": "featured",
+      "weight": 8.011
+    },
+    {
+      "token": "twitter com",
+      "weight": 7.9499
+    },
+    {
+      "token": "hillary",
+      "weight": 6.7997
+    },
+    {
+      "token": "october",
+      "weight": 6.7988
+    },
+    {
+      "token": "read",
+      "weight": 6.4258
+    },
+    {
+      "token": "2016",
+      "weight": 6.4234
+    },
+    {
+      "token": "getty",
+      "weight": 6.2447
+    },
+    {
+      "token": "breaking",
+      "weight": 5.9521
+    },
+    {
+      "token": "getty images",
+      "weight": 5.8554
+    },
+    {
+      "token": "com",
+      "weight": 5.551
+    },
+    {
+      "token": "november",
+      "weight": 5.142
+    },
+    {
+      "token": "anti",
+      "weight": 4.7722
+    },
+    {
+      "token": "watch",
+      "weight": 4.7379
+    },
+    {
+      "token": "obama",
+      "weight": 4.6622
+    },
+    {
+      "token": "november 2016",
+      "weight": 4.2775
+    },
+    {
+      "token": "just",
+      "weight": 4.1059
+    },
+    {
+      "token": "photo",
+      "weight": 3.9837
+    },
+    {
+      "token": "president trump",
+      "weight": 3.9771
+    },
+    {
+      "token": "america",
+      "weight": 3.898
+    },
+    {
+      "token": "entire",
+      "weight": 3.8739
+    },
+    {
+      "token": "non",
+      "weight": 3.7017
+    },
+    {
+      "token": "source",
+      "weight": 3.6931
+    }
+  ],
+  "top_real_tokens": [
+    {
+      "token": "reuters",
+      "weight": 27.0864
+    },
+    {
+      "token": "breitbart",
+      "weight": 16.2014
+    },
+    {
+      "token": "said",
+      "weight": 11.5574
+    },
+    {
+      "token": "follow",
+      "weight": 9.0982
+    },
+    {
+      "token": "washington reuters",
+      "weight": 8.9618
+    },
+    {
+      "token": "twitter",
+      "weight": 8.8398
+    },
+    {
+      "token": "president donald",
+      "weight": 7.6899
+    },
+    {
+      "token": "york times",
+      "weight": 7.3401
+    },
+    {
+      "token": "2017",
+      "weight": 5.4842
+    },
+    {
+      "token": "thursday",
+      "weight": 5.0896
+    },
+    {
+      "token": "friday",
+      "weight": 4.6701
+    },
+    {
+      "token": "ms",
+      "weight": 4.6113
+    },
+    {
+      "token": "percent",
+      "weight": 4.4989
+    },
+    {
+      "token": "new york",
+      "weight": 4.3851
+    },
+    {
+      "token": "monday",
+      "weight": 4.2693
+    },
+    {
+      "token": "york",
+      "weight": 4.2467
+    },
+    {
+      "token": "tuesday",
+      "weight": 4.1753
+    },
+    {
+      "token": "follow twitter",
+      "weight": 4.1594
+    },
+    {
+      "token": "mr",
+      "weight": 4.109
+    },
+    {
+      "token": "islamic state",
+      "weight": 4.0532
+    },
+    {
+      "token": "reuters president",
+      "weight": 4.0505
+    },
+    {
+      "token": "wednesday",
+      "weight": 3.6678
+    },
+    {
+      "token": "sunday",
+      "weight": 3.5794
+    },
+    {
+      "token": "said statement",
+      "weight": 3.3691
+    },
+    {
+      "token": "saturday",
+      "weight": 3.1904
+    }
+  ]
+}
